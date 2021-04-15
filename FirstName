@@ -1,0 +1,101 @@
+echo "# BlinkName" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/treasurest/BlinkName.git
+git push -u origin main
+
+
+
+int led = D7;
+
+void setup() {
+    
+    
+ pinMode(led, OUTPUT);
+}
+
+void loop() {
+    
+    //S
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1500);
+    
+    //T
+    digitalWrite(D7, HIGH);
+    delay(2000);
+    
+    digitalWrite(D7, LOW);
+    delay(1500);
+        
+    //E
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1500);
+    
+    //P
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7,HIGH);
+    delay(2000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7,HIGH);
+    delay(2000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1500);
+
+    //H
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1500);
+
+    //E
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(1500);
+    
+    //N
+    digitalWrite(D7, HIGH);
+    delay(2000);
+    digitalWrite(D7, LOW);
+    delay(1000);
+    digitalWrite(D7, HIGH);
+    delay(1000);
+    digitalWrite(D7, LOW);
+    delay(3000);
+
+
+}
